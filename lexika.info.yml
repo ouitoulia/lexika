@@ -7,8 +7,6 @@ core_version_requirement: ^10
 dependencies:
   - drupal:language
   - drupal:locale
-  - drupal:file
+  - drupal:text
   - drupal:taxonomy
-  - drupal:token
   - drupal:pathauto
-  - drupal:path
