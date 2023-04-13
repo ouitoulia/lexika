@@ -5,9 +5,9 @@ Lexikà, oltre ai vocabolari, importa le configurazioni degli url.
 ## Installazione
 Per aggiungere il modulo alla tua installazione esegui:
 ```
-$ composer require ouitoulia/lexika
+$ composer require drupal/pathauto ouitoulia/lexika
 ```
-Pathauto verrà aggiunto automaticamente. Installa `pathauto`:
+Installa il modulo `pathauto` e configuralo:
 ```
 $ drush -y pm:install pathauto
 $ drush -y config:set pathauto.settings punctuation.slash 1
