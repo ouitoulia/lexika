@@ -1,2 +1,2 @@
-# lexika
-lexika - Vocabolari
+# Lexikà
+Lexikà - Vocabolari
