@@ -1,0 +1,8 @@
+langcode: it
+status: true
+dependencies: {  }
+name: "Destinazione d'uso"
+vid: destinazione_uso
+description: "Utilizza questo vocabolario per gestire le varie destinazioni d'uso dei luoghi."
+weight: 0
+

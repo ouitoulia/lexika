@@ -1,0 +1,7 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Le parole della scuola'
+vid: tags
+description: 'Utilizza i tag per organizzare in categorie i contenuti riguardanti lo stesso argomento.'
+weight: 0

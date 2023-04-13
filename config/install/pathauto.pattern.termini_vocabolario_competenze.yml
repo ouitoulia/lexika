@@ -1,0 +1,21 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_competenze
+label: 'Termini vocabolario competenze'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'competenze/[term:name]'
+selection_criteria:
+  a17f47db-24ea-44c6-a83b-5fc3a9d683e8:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: a17f47db-24ea-44c6-a83b-5fc3a9d683e8
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      competenze: competenze
+selection_logic: and
+weight: -5
+relationships: {  }

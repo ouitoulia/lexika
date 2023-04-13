@@ -1,0 +1,22 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_tipologia_licenze
+label: 'Termini vocabolario tipologia licenze'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'licenze/[term:name]'
+selection_criteria:
+  30a29a42-27eb-46ec-b055-a95e9f6ad3d6:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 30a29a42-27eb-46ec-b055-a95e9f6ad3d6
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      tipologia_licenze: tipologia_licenze
+selection_logic: and
+weight: -5
+relationships: {  }
+

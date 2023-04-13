@@ -1,0 +1,8 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Tipologia progetti'
+vid: tipologia_progetti
+description: 'Utilizza questo vocabolario per gestire le varie tipologie di progetti.'
+weight: 0
+

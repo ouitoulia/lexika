@@ -1,0 +1,21 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_anni_scolastici
+label: 'Termini vocabolario anni scolastici'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'anni-scolastici/[term:name]'
+selection_criteria:
+  3d161fda-118c-4b7d-a29f-63424c974d82:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 3d161fda-118c-4b7d-a29f-63424c974d82
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      anni_scolastici: anni_scolastici
+selection_logic: and
+weight: -5
+relationships: {  }

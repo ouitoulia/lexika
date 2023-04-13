@@ -1,0 +1,7 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Tipologia strutture'
+vid: tipologia_strutture
+description: 'Utilizza questo vocabolario per gestire le varie tipologie di strutture.'
+weight: 0

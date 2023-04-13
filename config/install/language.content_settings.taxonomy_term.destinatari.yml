@@ -1,0 +1,10 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.destinatari
+id: taxonomy_term.destinatari
+target_entity_type_id: taxonomy_term
+target_bundle: destinatari
+default_langcode: it
+language_alterable: true

@@ -1,0 +1,11 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.anni_scolastici
+id: taxonomy_term.anni_scolastici
+target_entity_type_id: taxonomy_term
+target_bundle: anni_scolastici
+default_langcode: it
+language_alterable: true
+

@@ -1,0 +1,8 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Tipologia licenze'
+vid: tipologia_licenze
+description: 'Utilizza questo vocabolario per gestire le varie tipologie di licenze.'
+weight: 0
+

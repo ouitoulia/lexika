@@ -1,0 +1,8 @@
+langcode: it
+status: true
+dependencies: {  }
+name: Materie
+vid: materie
+description: "Utilizza questo vocabolario per gestire l'elenco delle materie."
+weight: 0
+

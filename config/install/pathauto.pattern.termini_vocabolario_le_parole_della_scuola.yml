@@ -1,0 +1,22 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_le_parole_della_scuola
+label: 'Termini vocabolario le parole della scuola'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'le-parole-della-scuola/[term:name]'
+selection_criteria:
+  afc02c63-4f23-4413-8b3c-5bc1510f5c1c:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: afc02c63-4f23-4413-8b3c-5bc1510f5c1c
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      tags: tags
+selection_logic: and
+weight: -5
+relationships: {  }
+

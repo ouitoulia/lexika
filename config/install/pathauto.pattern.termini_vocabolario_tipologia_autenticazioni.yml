@@ -1,0 +1,22 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_tipologia_autenticazioni
+label: 'Termini vocabolario tipologia autenticazioni'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'tipologia-autenticazioni/[term:name]'
+selection_criteria:
+  79da94dd-81de-4960-89b6-b402e03fb653:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 79da94dd-81de-4960-89b6-b402e03fb653
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      tipologia_autenticazioni: tipologia_autenticazioni
+selection_logic: and
+weight: -5
+relationships: {  }
+

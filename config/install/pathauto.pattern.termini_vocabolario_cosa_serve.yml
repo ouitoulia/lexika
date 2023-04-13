@@ -1,0 +1,21 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_cosa_serve
+label: 'Termini vocabolario cosa serve'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'cosa-serve/[term:name]'
+selection_criteria:
+  cbf73835-5826-4765-b589-781d5d66c96a:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: cbf73835-5826-4765-b589-781d5d66c96a
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      cosa_serve: cosa_serve
+selection_logic: and
+weight: -5
+relationships: {  }

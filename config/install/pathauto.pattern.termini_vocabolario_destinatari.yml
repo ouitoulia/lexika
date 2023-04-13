@@ -1,0 +1,21 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_destinatari
+label: 'Termini vocabolario destinatari'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'destinatari/[term:name]'
+selection_criteria:
+  e88d9838-f572-4c34-8fe1-79a9cf9174c4:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: e88d9838-f572-4c34-8fe1-79a9cf9174c4
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      destinatari: destinatari
+selection_logic: and
+weight: -5
+relationships: {  }

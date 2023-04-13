@@ -1,0 +1,8 @@
+langcode: it
+status: true
+dependencies: {  }
+name: Destinatari
+vid: destinatari
+description: 'Utilizza questo vocabolario per gestire i destinatari dei vari tipi di contenuto.'
+weight: 0
+

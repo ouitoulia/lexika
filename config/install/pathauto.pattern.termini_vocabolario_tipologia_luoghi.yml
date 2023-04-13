@@ -1,0 +1,22 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_tipologia_luoghi
+label: 'Termini vocabolario tipologia luoghi'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'luoghi/[term:name]'
+selection_criteria:
+  b34e3d52-86c7-42ed-ad82-5a031abd882b:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: b34e3d52-86c7-42ed-ad82-5a031abd882b
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      tipologia_luoghi: tipologia_luoghi
+selection_logic: and
+weight: -5
+relationships: {  }
+

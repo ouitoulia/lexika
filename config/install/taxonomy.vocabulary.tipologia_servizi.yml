@@ -1,0 +1,7 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Tipologia servizi'
+vid: tipologia_servizi
+description: 'Utilizza questo vocabolario per gestire le varie tipologie di servizi.'
+weight: 0

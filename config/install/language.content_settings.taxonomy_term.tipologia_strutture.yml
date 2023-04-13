@@ -1,0 +1,11 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipologia_strutture
+id: taxonomy_term.tipologia_strutture
+target_entity_type_id: taxonomy_term
+target_bundle: tipologia_strutture
+default_langcode: it
+language_alterable: true
+

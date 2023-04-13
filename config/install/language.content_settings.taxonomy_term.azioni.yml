@@ -1,0 +1,10 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.azioni
+id: taxonomy_term.azioni
+target_entity_type_id: taxonomy_term
+target_bundle: azioni
+default_langcode: it
+language_alterable: true

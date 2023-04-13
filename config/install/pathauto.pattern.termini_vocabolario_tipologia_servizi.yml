@@ -1,0 +1,22 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_tipologia_servizi
+label: 'Termini vocabolario tipologia servizi'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'servizi/[term:name]'
+selection_criteria:
+  a9a50009-53ef-45d9-902b-387d304295a0:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: a9a50009-53ef-45d9-902b-387d304295a0
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      tipologia_servizi: tipologia_servizi
+selection_logic: and
+weight: -5
+relationships: {  }
+

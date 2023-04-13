@@ -1,0 +1,10 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.attributi_dei_luoghi
+id: taxonomy_term.attributi_dei_luoghi
+target_entity_type_id: taxonomy_term
+target_bundle: attributi_dei_luoghi
+default_langcode: it
+language_alterable: true

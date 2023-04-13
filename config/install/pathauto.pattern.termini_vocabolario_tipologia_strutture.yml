@@ -1,0 +1,22 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_tipologia_strutture
+label: 'Termini vocabolario tipologia strutture'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'strutture/[term:name]'
+selection_criteria:
+  685a147b-6cc4-4b39-a750-3dc10a7ccd06:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 685a147b-6cc4-4b39-a750-3dc10a7ccd06
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      tipologia_strutture: tipologia_strutture
+selection_logic: and
+weight: -5
+relationships: {  }
+

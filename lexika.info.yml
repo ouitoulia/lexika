@@ -1,0 +1,14 @@
+name: "Lexikà"
+description: Ouitoulía Lexikà è un modulo Drupal che installa i vocabolari utilizzati dalle scuole.
+package: "Ouitoulía"
+
+type: module
+core_version_requirement: ^10
+dependencies:
+  - drupal:language
+  - drupal:locale
+  - drupal:file
+  - drupal:taxonomy
+  - drupal:token
+  - drupal:pathauto
+  - drupal:path

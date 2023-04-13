@@ -1,0 +1,23 @@
+{
+    "name": "ouitoulia/lexika",
+    "description": "Ouitoulía Lexikà è un modulo Drupal che installa i vocabolari utilizzati dalle scuole.",
+    "type": "drupal-module",
+    "license": "GPL-3.0-only",
+    "homepage": "https://github.com/ouitoulia/lexika",
+    "authors": [
+        {
+            "name": "Pietro Arturo Panetta",
+            "homepage":"https://www.drupal.org/u/arturopanetta",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ouitoulia/lexika/issues",
+        "source": "https://github.com/ouitoulia/lexika"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "drupal/core": "^10"
+    }
+}

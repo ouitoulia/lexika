@@ -1,0 +1,22 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_materie
+label: 'Termini vocabolario materie'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'materie/[term:name]-[term:field_miur_class_id:value]'
+selection_criteria:
+  3a5b01da-459d-45f2-b0b2-f17eb6d8e2a0:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 3a5b01da-459d-45f2-b0b2-f17eb6d8e2a0
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      materie: materie
+selection_logic: and
+weight: -5
+relationships: {  }
+

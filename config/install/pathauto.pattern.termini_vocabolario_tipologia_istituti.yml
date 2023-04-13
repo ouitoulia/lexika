@@ -1,0 +1,22 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_tipologia_istituti
+label: 'Termini vocabolario tipologia istituti'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'istituti/[term:name]'
+selection_criteria:
+  cc15caa9-b086-435d-bd17-5e44ba05935e:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: cc15caa9-b086-435d-bd17-5e44ba05935e
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      tipologia_istituti: tipologia_istituti
+selection_logic: and
+weight: -5
+relationships: {  }
+

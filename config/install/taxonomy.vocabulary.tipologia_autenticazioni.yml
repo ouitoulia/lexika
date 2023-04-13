@@ -1,0 +1,7 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Tipologia autenticazioni'
+vid: tipologia_autenticazioni
+description: 'Utilizza questo vocabolario per gestire le varie tipologie di autenticazione fornite.'
+weight: 0

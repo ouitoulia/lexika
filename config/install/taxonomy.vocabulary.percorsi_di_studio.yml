@@ -1,0 +1,8 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Percorsi di studio'
+vid: percorsi_di_studio
+description: "Utilizza questo vocabolario per gestire i diversi percorsi di studio."
+weight: 0
+

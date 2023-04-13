@@ -1,0 +1,8 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Attributi dei luoghi'
+vid: attributi_dei_luoghi
+description: 'Utilizza questo vocabolario per gestire gli attributi associabili ai luoghi.'
+weight: 0
+

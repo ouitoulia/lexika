@@ -1,0 +1,22 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_tipologia_eventi
+label: 'Termini vocabolario tipologia eventi'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'eventi/[term:name]'
+selection_criteria:
+  f3771a75-0314-4532-aea9-a994cb4f2456:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: f3771a75-0314-4532-aea9-a994cb4f2456
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      tipologia_eventi: tipologia_eventi
+selection_logic: and
+weight: -5
+relationships: {  }
+

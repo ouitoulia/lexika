@@ -1,0 +1,8 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Tipologia istituti'
+vid: tipologia_istituti
+description: 'Utilizza questo vocabolario per gestire le varie tipologie di istituti.'
+weight: 0
+

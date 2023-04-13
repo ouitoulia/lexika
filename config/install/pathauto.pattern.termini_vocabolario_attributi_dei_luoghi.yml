@@ -1,0 +1,22 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_attributi_dei_luoghi
+label: 'Termini vocabolario attributi dei luoghi'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'attributi-dei-luoghi/[term:name]'
+selection_criteria:
+  1aebe0dd-6287-4cb5-a0c7-d469cf4c4f35:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 1aebe0dd-6287-4cb5-a0c7-d469cf4c4f35
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      attributi_dei_luoghi: attributi_dei_luoghi
+selection_logic: and
+weight: -5
+relationships: {  }
+

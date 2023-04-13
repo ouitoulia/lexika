@@ -1,0 +1,22 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_azioni
+label: 'Termini vocabolario azioni'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'azioni/[term:name]'
+selection_criteria:
+  d9302582-c948-4090-8283-60e8e6e396a0:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: d9302582-c948-4090-8283-60e8e6e396a0
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      azioni: azioni
+selection_logic: and
+weight: -5
+relationships: {  }
+

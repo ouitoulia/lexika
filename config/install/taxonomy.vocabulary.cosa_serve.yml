@@ -1,0 +1,8 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Cosa serve'
+vid: cosa_serve
+description: "Utilizza questo vocabolario per gestire l'elenco di ciò che serve per usufruire di un servizio."
+weight: 0
+

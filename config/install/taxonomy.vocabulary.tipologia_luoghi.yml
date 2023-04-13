@@ -1,0 +1,8 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Tipologia luoghi'
+vid: tipologia_luoghi
+description: 'Utilizza questo vocabolario per gestire le varie tipologie di luoghi.'
+weight: 0
+

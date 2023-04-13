@@ -1,0 +1,30 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.materie.field_miur_class_id
+    - taxonomy.vocabulary.materie
+  module:
+    - text
+id: taxonomy_term.materie.default
+targetEntityType: taxonomy_term
+bundle: materie
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_miur_class_id:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

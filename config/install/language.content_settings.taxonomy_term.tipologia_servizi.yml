@@ -1,0 +1,11 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipologia_servizi
+id: taxonomy_term.tipologia_servizi
+target_entity_type_id: taxonomy_term
+target_bundle: tipologia_servizi
+default_langcode: it
+language_alterable: true
+
