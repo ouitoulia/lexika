@@ -1,0 +1,10 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipologia_posti
+id: taxonomy_term.tipologia_posti
+target_entity_type_id: taxonomy_term
+target_bundle: tipologia_posti
+default_langcode: it
+language_alterable: true

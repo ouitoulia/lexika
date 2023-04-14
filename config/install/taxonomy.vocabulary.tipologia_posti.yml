@@ -1,0 +1,7 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Tipologia posti'
+vid: tipologia_posti
+description: 'Utilizza questo vocabolario per gestire le varie tipologie di posto.'
+weight: 0
