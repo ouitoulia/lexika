@@ -2,6 +2,10 @@
 Lexikà è un modulo Drupal che installa i vocabolari utilizzati dalle scuole.
 Lexikà, oltre ai vocabolari, importa le configurazioni degli url. 
 
+## Requisiti
+- Drupal: >= 10
+- Drupal profilo d'installazione `minimal` 
+
 ## Installazione
 Per aggiungere il modulo alla tua installazione esegui:
 ```
