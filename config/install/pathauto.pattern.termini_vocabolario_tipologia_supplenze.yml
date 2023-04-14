@@ -1,0 +1,21 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_tipologia_supplenze
+label: 'Termini vocabolario tipologia supplenze'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'supplenze/[term:name]'
+selection_criteria:
+  0a7970e5-8dc4-470c-bf55-5f758eeb7849:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 0a7970e5-8dc4-470c-bf55-5f758eeb7849
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      tipologia_supplenze: tipologia_supplenze
+selection_logic: and
+weight: -5
+relationships: {  }
