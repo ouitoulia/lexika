@@ -5,6 +5,7 @@ package: "Ouitoulía"
 type: module
 core_version_requirement: ^10
 dependencies:
+  - drupal:field
   - drupal:language
   - drupal:locale
   - drupal:text
