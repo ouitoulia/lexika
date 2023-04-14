@@ -1,0 +1,21 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_tipologia_incarichi
+label: 'Termini vocabolario tipologia incarichi'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'incarichi/[term:name]'
+selection_criteria:
+  c48393a9-7281-4b85-8342-ef82d3b96f61:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: c48393a9-7281-4b85-8342-ef82d3b96f61
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      tipologia_incarichi: tipologia_incarichi
+selection_logic: and
+weight: -5
+relationships: {  }

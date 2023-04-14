@@ -1,0 +1,7 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Tipologia incarichi'
+vid: tipologia_incarichi
+description: 'Utilizza questo vocabolario per gestire le varie tipologie di incarichi.'
+weight: 0
