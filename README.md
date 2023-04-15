@@ -4,7 +4,8 @@ Lexikà, oltre ai vocabolari, importa le configurazioni degli url.
 
 ## Requisiti
 - Drupal: >= 10
-- Drupal profilo d'installazione `minimal` 
+- Profilo Drupal: `minimal`
+- Moduli contrib: `pathauto`
 
 ## Installazione
 Per aggiungere il modulo alla tua installazione esegui:
