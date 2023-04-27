@@ -15,16 +15,16 @@ Lexikà, oltre ai vocabolari, importa le configurazioni degli url.
 
 ## Installazione
 Per aggiungere il modulo alla tua installazione esegui:
-```
+```bash
 $ composer require drupal/pathauto ouitoulia/lexika
 ```
 Installa il modulo `pathauto` e configuralo:
-```
+```bash
 $ drush -y pm:install pathauto
 $ drush -y config:set pathauto.settings punctuation.slash 1
 ```
 Infine, installa Lexikà
-```
+```bash
 $ drush -y en lexika
 ```
 
