@@ -1,5 +1,5 @@
 # Lexikà
-Lexikà è un modulo Drupal che installa i vocabolari utilizzati dalle scuole.
+[Lexikà](https://www.grecoantico.com/dizionario-greco-antico.php?parola=lexikon) è un modulo Drupal che installa i vocabolari utilizzati dalle scuole.
 Lexikà, oltre ai vocabolari, importa le configurazioni degli url. 
 
 ## Requisiti
