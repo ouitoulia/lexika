@@ -2,7 +2,7 @@
 
 ![GitHub](https://img.shields.io/github/license/ouitoulia/lexika?style=for-the-badge)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ouitoulia/lexika?sort=semver&style=for-the-badge)
-![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/ouitoulia/lexika/drupal/core?style=for-the-badge)
+![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/ouitoulia/lexika/drupal/core-recommended?style=for-the-badge)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/ouitoulia/lexika?style=for-the-badge)
 
 [Lexikà](https://www.grecoantico.com/dizionario-greco-antico.php?parola=lexikon) è un modulo Drupal che installa i vocabolari utilizzati dalle scuole.
