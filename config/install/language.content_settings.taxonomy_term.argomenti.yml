@@ -2,10 +2,10 @@ langcode: it
 status: true
 dependencies:
   config:
-    - taxonomy.vocabulary.tags
-id: taxonomy_term.tags
+    - taxonomy.vocabulary.argomenti
+id: taxonomy_term.argomenti
 target_entity_type_id: taxonomy_term
-target_bundle: tags
+target_bundle: argomenti
 default_langcode: it
 language_alterable: true
 
