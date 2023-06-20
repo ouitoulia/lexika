@@ -1,0 +1,7 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Ruoli persona'
+vid: ruoli_persona
+description: 'Utilizza questo vocabolario per gestire i ruoli delle persone. Nota: questo vocabolario non riguarda i ruoli degli utenti.'
+weight: 0
