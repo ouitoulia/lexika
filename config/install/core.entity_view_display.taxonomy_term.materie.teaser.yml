@@ -1,0 +1,23 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.teaser
+    - field.field.taxonomy_term.materie.field_miur_class_id
+    - taxonomy.vocabulary.materie
+id: taxonomy_term.materie.teaser
+targetEntityType: taxonomy_term
+bundle: materie
+mode: teaser
+content:
+  field_miur_class_id:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  description: true
+  langcode: true

@@ -1,0 +1,9 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.full
+label: 'Pagina di un termine della tassonomia'
+targetEntityType: taxonomy_term
+cache: true
