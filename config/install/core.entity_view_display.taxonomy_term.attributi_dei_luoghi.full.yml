@@ -1,0 +1,31 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.full
+    - field.field.taxonomy_term.attributi_dei_luoghi.field_icona
+    - taxonomy.vocabulary.attributi_dei_luoghi
+  module:
+    - text
+id: taxonomy_term.attributi_dei_luoghi.full
+targetEntityType: taxonomy_term
+bundle: attributi_dei_luoghi
+mode: full
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_icona:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
