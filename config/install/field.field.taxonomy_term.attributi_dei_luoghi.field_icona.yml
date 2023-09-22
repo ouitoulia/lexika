@@ -9,7 +9,7 @@ field_name: field_icona
 entity_type: taxonomy_term
 bundle: attributi_dei_luoghi
 label: Icona
-description: 'Inserisci il nome dell''icona, per visualizzare l''elenco delle icone disponibili consulta questa la <a href="/patterns" title="Pagina dei componenti in una nuova finestra" target="_blank">pagina dimostrativa dei componenti</a>.'
+description: 'Inserisci il nome dell''icona, per visualizzare l''elenco delle icone consulta la <a href="/patterns" title="Pagina dei componenti in una nuova finestra" target="_blank">pagina dimostrativa dei componenti</a>.'
 required: false
 translatable: false
 default_value: {  }
