@@ -18,7 +18,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "drupal/core-recommended": "^10",
-        "drupal/pathauto": "^1"
+        "drupal/core-recommended": "^10"
     }
 }
