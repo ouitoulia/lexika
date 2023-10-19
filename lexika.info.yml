@@ -10,7 +10,7 @@ dependencies:
   - drupal:locale
   - drupal:text
   - drupal:taxonomy
-  - drupal:pathauto
+  - pathauto:pathauto
 
 # Information added by GitHub Action packaging script on 2023-10-17
 version: '1.1.6'
