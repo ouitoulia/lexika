@@ -13,7 +13,7 @@ dependencies:
   - pathauto:pathauto
 
 # Information added by GitHub Action packaging script on 2023-11-03
-version: '1.2.0'
+version: '1.2.1'
 project: 'Lexika'
-datestamp: 1699027290
-message: ' aggiunto campo icona al vocabolario tipologia dei luoghi'
+datestamp: 1699029001
+message: ' fix label display'
