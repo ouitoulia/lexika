@@ -1,0 +1,23 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.tipologia_luoghi.field_icona
+    - taxonomy.vocabulary.tipologia_luoghi
+  module:
+    - text
+id: taxonomy_term.tipologia_luoghi.default
+targetEntityType: taxonomy_term
+bundle: tipologia_luoghi
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_icona: true
+  langcode: true
