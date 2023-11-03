@@ -12,8 +12,8 @@ dependencies:
   - drupal:taxonomy
   - pathauto:pathauto
 
-# Information added by GitHub Action packaging script on 2023-10-19
-version: '1.1.8'
+# Information added by GitHub Action packaging script on 2023-11-03
+version: '1.2.0'
 project: 'Lexika'
-datestamp: 1697718644
-message: ' fix deps'
+datestamp: 1699027290
+message: ' aggiunto campo icona al vocabolario tipologia dei luoghi'
