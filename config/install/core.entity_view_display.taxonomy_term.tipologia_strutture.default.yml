@@ -1,0 +1,23 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.tipologia_strutture.field_icona
+    - taxonomy.vocabulary.tipologia_strutture
+  module:
+    - text
+id: taxonomy_term.tipologia_strutture.default
+targetEntityType: taxonomy_term
+bundle: tipologia_strutture
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_icona: true
+  langcode: true
