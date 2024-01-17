@@ -12,8 +12,8 @@ dependencies:
   - drupal:taxonomy
   - pathauto:pathauto
 
-# Information added by GitHub Action packaging script on 2023-11-03
-version: '1.2.1'
+# Information added by GitHub Action packaging script on 2024-01-17
+version: '1.2.2'
 project: 'Lexika'
-datestamp: 1699029001
-message: ' fix label display'
+datestamp: 1705492297
+message: ' add icon to tipologia strutture'
