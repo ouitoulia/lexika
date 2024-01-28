@@ -13,7 +13,7 @@ dependencies:
   - pathauto:pathauto
 
 # Information added by GitHub Action packaging script on 2024-01-28
-version: '1.3.0'
+version: '1.3.1'
 project: 'Lexika'
-datestamp: 1706450231
-message: ' add display azioni and autenticazioni'
+datestamp: 1706450938
+message: ' fix have unmet dependencies'
