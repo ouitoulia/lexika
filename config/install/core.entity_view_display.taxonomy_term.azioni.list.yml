@@ -1,0 +1,32 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.list
+    - field.field.taxonomy_term.azioni.field_icona
+    - field.field.taxonomy_term.azioni.field_type
+    - taxonomy.vocabulary.azioni
+id: taxonomy_term.azioni.list
+targetEntityType: taxonomy_term
+bundle: azioni
+mode: list
+content:
+  field_icona:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_type:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  description: true
+  langcode: true

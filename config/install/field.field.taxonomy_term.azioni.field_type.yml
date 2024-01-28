@@ -1,0 +1,18 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_type
+    - taxonomy.vocabulary.azioni
+id: taxonomy_term.azioni.field_type
+field_name: field_type
+entity_type: taxonomy_term
+bundle: azioni
+label: 'Tipo di azione'
+description: 'Inserisci l''id dell''azione, maggiori dettagli su <a href="https://docs.italia.it/italia/designers-italia/app-valutazione-modelli-docs/it/versione-attuale/requisiti-e-modalita-verifica-scuole.html#raccomandazione-r-sc-1-2-schede-informative-di-servizio" title="Leggi i dettagli della Raccomandazione R.SC.1.2 in una nuova scheda" target="_blank">Raccomandazione R.SC.1.2</a> .Es. <code class="color-success">service-online-access</code> oppure <code class="color-success">service-booking-access</code>. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

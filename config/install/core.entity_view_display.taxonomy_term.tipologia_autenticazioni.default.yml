@@ -1,0 +1,30 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.tipologia_autenticazioni.field_icona
+    - taxonomy.vocabulary.tipologia_autenticazioni
+  module:
+    - text
+id: taxonomy_term.tipologia_autenticazioni.default
+targetEntityType: taxonomy_term
+bundle: tipologia_autenticazioni
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_icona:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

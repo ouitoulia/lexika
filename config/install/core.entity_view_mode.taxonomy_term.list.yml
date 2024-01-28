@@ -1,0 +1,10 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.list
+label: List
+description: 'Visualizza il contenuto testuale dei campi in formato lista separato da punto e virgola.'
+targetEntityType: taxonomy_term
+cache: true
