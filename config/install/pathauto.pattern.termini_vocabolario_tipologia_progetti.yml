@@ -6,12 +6,12 @@ dependencies:
 id: termini_vocabolario_tipologia_progetti
 label: 'Termini vocabolario tipologia progetti'
 type: 'canonical_entities:taxonomy_term'
-pattern: 'progetti/[term:name]'
+pattern: 'didattica/i-progetti-delle-classi/[term:name]'
 selection_criteria:
-  177025f0-ceaa-4fae-a5fb-86fd2024c4b2:
+  8e651bcc-14ea-4e5c-aa03-14dc67da8699:
     id: 'entity_bundle:taxonomy_term'
     negate: false
-    uuid: 177025f0-ceaa-4fae-a5fb-86fd2024c4b2
+    uuid: 8e651bcc-14ea-4e5c-aa03-14dc67da8699
     context_mapping:
       taxonomy_term: taxonomy_term
     bundles:
@@ -19,4 +19,3 @@ selection_criteria:
 selection_logic: and
 weight: -5
 relationships: {  }
-
