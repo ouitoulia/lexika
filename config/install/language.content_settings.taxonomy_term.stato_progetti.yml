@@ -1,0 +1,10 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.stato_progetti
+id: taxonomy_term.stato_progetti
+target_entity_type_id: taxonomy_term
+target_bundle: stato_progetti
+default_langcode: site_default
+language_alterable: true

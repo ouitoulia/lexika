@@ -1,0 +1,21 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_stato_progetti
+label: 'Termini vocabolario Stato dei progetti'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'stato-progetti/[term:name]'
+selection_criteria:
+  b16b099b-06c6-422e-9441-14cd7e7d2429:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: b16b099b-06c6-422e-9441-14cd7e7d2429
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      stato_progetti: stato_progetti
+selection_logic: and
+weight: -5
+relationships: {  }
