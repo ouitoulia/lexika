@@ -12,8 +12,8 @@ dependencies:
   - drupal:taxonomy
   - pathauto:pathauto
 
-# Information added by GitHub Action packaging script on 2024-02-06
-version: '1.4.0'
+# Information added by GitHub Action packaging script on 2024-02-12
+version: '2.0.0'
 project: 'Lexika'
-datestamp: 1707202946
-message: ' add stato_progetti vocabulary'
+datestamp: 1707768561
+message: ' fix rename vocabulary percorsi_di_studio to indirizzi_di_studio'
