@@ -2,10 +2,10 @@ langcode: it
 status: true
 dependencies:
   config:
-    - taxonomy.vocabulary.percorsi_di_studio
-id: taxonomy_term.percorsi_di_studio
+    - taxonomy.vocabulary.indirizzi_di_studio
+id: taxonomy_term.indirizzi_di_studio
 target_entity_type_id: taxonomy_term
-target_bundle: percorsi_di_studio
+target_bundle: indirizzi_di_studio
 default_langcode: it
 language_alterable: true
 

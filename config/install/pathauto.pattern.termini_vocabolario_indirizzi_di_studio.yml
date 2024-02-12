@@ -3,10 +3,10 @@ status: true
 dependencies:
   module:
     - taxonomy
-id: termini_vocabolario_percorsi_di_studio
-label: "Termini vocabolario percorsi di studio"
+id: termini_vocabolario_indirizzi_di_studio
+label: "Termini vocabolario indirizzi di studio"
 type: 'canonical_entities:taxonomy_term'
-pattern: 'percorsi-di-studio/[term:name]'
+pattern: 'indirizzi-di-studio/[term:name]'
 selection_criteria:
   39e86398-bfb9-4aa6-b632-5aac123756fc:
     id: 'entity_bundle:taxonomy_term'
@@ -15,7 +15,7 @@ selection_criteria:
     context_mapping:
       taxonomy_term: taxonomy_term
     bundles:
-      percorsi_di_studio: percorsi_di_studio
+      indirizzi_di_studio: indirizzi_di_studio
 selection_logic: and
 weight: -5
 relationships: {  }

@@ -1,0 +1,8 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Indirizzi di studio'
+vid: indirizzi_di_studio
+description: "Utilizza questo vocabolario per gestire i diversi indirizzi di studio."
+weight: 0
+
