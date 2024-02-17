@@ -13,7 +13,7 @@ dependencies:
   - pathauto:pathauto
 
 # Information added by GitHub Action packaging script on 2024-02-17
-version: '2.1.0'
+version: '2.2.0'
 project: 'Lexika'
-datestamp: 1708176789
+datestamp: 1708179754
 message: ' add vocabulary'
