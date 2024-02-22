@@ -12,8 +12,8 @@ dependencies:
   - drupal:taxonomy
   - pathauto:pathauto
 
-# Information added by GitHub Action packaging script on 2024-02-17
-version: '2.2.0'
+# Information added by GitHub Action packaging script on 2024-02-22
+version: '2.3.0'
 project: 'Lexika'
-datestamp: 1708179754
-message: ' add vocabulary'
+datestamp: 1708636280
+message: ' add tipologia_documenti vocabulary'
