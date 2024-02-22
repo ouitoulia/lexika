@@ -1,0 +1,21 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: termini_vocabolario_tipologia_documenti
+label: 'Termini vocabolario tipologia documenti'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'scuola/le-carte-della-scuola/[term:name]'
+selection_criteria:
+  b9b7c5c3-a0d5-4011-9670-c170bef77528:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: b9b7c5c3-a0d5-4011-9670-c170bef77528
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      tipologia_documenti: tipologia_documenti
+selection_logic: and
+weight: -5
+relationships: {  }
