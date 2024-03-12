@@ -6,12 +6,12 @@ dependencies:
 id: termini_vocabolario_tipologia_strutture
 label: 'Termini vocabolario tipologia strutture'
 type: 'canonical_entities:taxonomy_term'
-pattern: 'strutture/[term:name]'
+pattern: 'scuola/organizzazione/[term:name]'
 selection_criteria:
-  685a147b-6cc4-4b39-a750-3dc10a7ccd06:
+  48f7f788-c912-4b37-ba98-9c16f4315c89:
     id: 'entity_bundle:taxonomy_term'
     negate: false
-    uuid: 685a147b-6cc4-4b39-a750-3dc10a7ccd06
+    uuid: 48f7f788-c912-4b37-ba98-9c16f4315c89
     context_mapping:
       taxonomy_term: taxonomy_term
     bundles:
@@ -19,4 +19,3 @@ selection_criteria:
 selection_logic: and
 weight: -5
 relationships: {  }
-
