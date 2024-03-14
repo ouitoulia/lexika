@@ -6,12 +6,12 @@ dependencies:
 id: termini_vocabolario_tipologia_eventi
 label: 'Termini vocabolario tipologia eventi'
 type: 'canonical_entities:taxonomy_term'
-pattern: 'eventi/[term:name]'
+pattern: 'novita/eventi/[term:name]'
 selection_criteria:
-  f3771a75-0314-4532-aea9-a994cb4f2456:
+  7d9b98b6-f411-4e24-a605-afe5ad74320b:
     id: 'entity_bundle:taxonomy_term'
     negate: false
-    uuid: f3771a75-0314-4532-aea9-a994cb4f2456
+    uuid: 7d9b98b6-f411-4e24-a605-afe5ad74320b
     context_mapping:
       taxonomy_term: taxonomy_term
     bundles:
@@ -19,4 +19,3 @@ selection_criteria:
 selection_logic: and
 weight: -5
 relationships: {  }
-
