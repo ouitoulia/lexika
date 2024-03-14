@@ -13,7 +13,7 @@ dependencies:
   - pathauto:pathauto
 
 # Information added by GitHub Action packaging script on 2024-03-14
-version: '2.5.0'
+version: '2.5.1'
 project: 'Lexika'
-datestamp: 1710416428
-message: ' aggiunto vocabolario tipologia_notizie'
+datestamp: 1710424119
+message: ' aggiunto pathauto per tipologia_notizie'
