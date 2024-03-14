@@ -1,0 +1,7 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Tipologia notizie'
+vid: tipologia_notizie
+description: 'Utilizza questo vocabolario per gestire le varie tipologie di notizie.'
+weight: 0
