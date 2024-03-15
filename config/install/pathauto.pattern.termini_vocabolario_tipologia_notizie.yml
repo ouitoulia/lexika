@@ -8,10 +8,10 @@ label: 'Termini vocabolario tipologia notizie'
 type: 'canonical_entities:taxonomy_term'
 pattern: 'novita/[term:name]'
 selection_criteria:
-  cddafbb4-c65f-4791-ada3-f660e76e57bd:
+  4d9dfa85-1b96-4c60-841c-2b4e777c17af:
     id: 'entity_bundle:taxonomy_term'
     negate: false
-    uuid: cddafbb4-c65f-4791-ada3-f660e76e57bd
+    uuid: 4d9dfa85-1b96-4c60-841c-2b4e777c17af
     context_mapping:
       taxonomy_term: taxonomy_term
     bundles:
