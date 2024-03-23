@@ -12,8 +12,8 @@ dependencies:
   - drupal:taxonomy
   - pathauto:pathauto
 
-# Information added by GitHub Action packaging script on 2024-03-15
-version: '2.5.3'
+# Information added by GitHub Action packaging script on 2024-03-23
+version: '2.5.4'
 project: 'Lexika'
-datestamp: 1710513682
-message: ' fix pathauto for tipologia_notizie'
+datestamp: 1711185300
+message: ' fix pathauto for tipologia_luoghi'
