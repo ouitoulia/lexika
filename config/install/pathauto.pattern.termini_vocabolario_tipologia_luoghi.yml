@@ -6,12 +6,12 @@ dependencies:
 id: termini_vocabolario_tipologia_luoghi
 label: 'Termini vocabolario tipologia luoghi'
 type: 'canonical_entities:taxonomy_term'
-pattern: 'luoghi/[term:name]'
+pattern: 'scuola/i-luoghi/[term:name]'
 selection_criteria:
-  b34e3d52-86c7-42ed-ad82-5a031abd882b:
+  bf922e22-8cc1-4627-8004-69087c45be14:
     id: 'entity_bundle:taxonomy_term'
     negate: false
-    uuid: b34e3d52-86c7-42ed-ad82-5a031abd882b
+    uuid: bf922e22-8cc1-4627-8004-69087c45be14
     context_mapping:
       taxonomy_term: taxonomy_term
     bundles:
@@ -19,4 +19,3 @@ selection_criteria:
 selection_logic: and
 weight: -5
 relationships: {  }
-
