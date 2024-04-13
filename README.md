@@ -34,7 +34,17 @@ Questo è il risultato:
 
 ## Moduli consigliati
 Per importare le voci di tassonomia nei vocabolari puoi usare: 
-[Sunchronìzo lexikà](https://github.com/ouitoulia/sunchronizo_lexika)
+[Sunchronìzo](https://github.com/ouitoulia/sunchronizo)
+
+## Issue
+Le issue vengono gestite nel repository principale del progetto:
+https://github.com/ouitoulia/diagraphe/issues
+
+## Contributori, dipendenze e altre informazioni
+Per contribuire al progetto effettua un Fork, aggiungi le tue modifiche e poi fai una Pull Request.
+
+- [Contributori](https://github.com/ouitoulia/lexika/graphs/contributors)
+- [Elenco delle dipendenze](https://github.com/ouitoulia/lexika/network/dependencies)
 
 ## License
 

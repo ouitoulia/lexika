@@ -1,0 +1,31 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.tipologia_progetti.field_copertina
+    - taxonomy.vocabulary.tipologia_progetti
+  module:
+    - text
+id: taxonomy_term.tipologia_progetti.default
+targetEntityType: taxonomy_term
+bundle: tipologia_progetti
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_copertina:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
