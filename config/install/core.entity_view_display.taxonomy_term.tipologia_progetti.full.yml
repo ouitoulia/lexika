@@ -2,14 +2,15 @@ langcode: it
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.taxonomy_term.full
     - field.field.taxonomy_term.tipologia_progetti.field_copertina
     - taxonomy.vocabulary.tipologia_progetti
   module:
     - text
-id: taxonomy_term.tipologia_progetti.default
+id: taxonomy_term.tipologia_progetti.full
 targetEntityType: taxonomy_term
 bundle: tipologia_progetti
-mode: default
+mode: full
 content:
   description:
     type: text_default

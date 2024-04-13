@@ -4,10 +4,8 @@ dependencies:
   config:
     - core.entity_view_mode.taxonomy_term.teaser
     - field.field.taxonomy_term.tipologia_progetti.field_copertina
-    - image.style.focal_point_nhd_16_9_640x360_
     - taxonomy.vocabulary.tipologia_progetti
   module:
-    - media
     - text
 id: taxonomy_term.tipologia_progetti.teaser
 targetEntityType: taxonomy_term
@@ -19,18 +17,8 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
-    region: content
-  field_copertina:
-    type: media_thumbnail
-    label: hidden
-    settings:
-      image_link: content
-      image_style: focal_point_nhd_16_9_640x360_
-      image_loading:
-        attribute: lazy
-    third_party_settings: {  }
     weight: 0
     region: content
 hidden:
+  field_copertina: true
   langcode: true
