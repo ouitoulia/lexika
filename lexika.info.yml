@@ -13,7 +13,7 @@ dependencies:
   - pathauto:pathauto
 
 # Information added by GitHub Action packaging script on 2024-04-13
-version: '2.6.0'
+version: '2.6.1'
 project: 'Lexika'
-datestamp: 1712993328
-message: ' add field image to tipologia progetti ouitoulia/diagraphe#15'
+datestamp: 1713015631
+message: ' fix display tipologia progetti ouitoulia/diagraphe#15'
