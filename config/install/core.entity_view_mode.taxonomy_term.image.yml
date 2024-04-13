@@ -1,0 +1,10 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.image
+label: Image
+description: "Visualizza l'immagine di copertina di un termine di tassonomia"
+targetEntityType: taxonomy_term
+cache: true
