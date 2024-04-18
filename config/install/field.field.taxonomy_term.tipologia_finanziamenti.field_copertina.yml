@@ -1,0 +1,28 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_copertina
+    - media.type.image
+    - taxonomy.vocabulary.tipologia_finanziamenti
+id: taxonomy_term.tipologia_finanziamenti.field_copertina
+field_name: field_copertina
+entity_type: taxonomy_term
+bundle: tipologia_finanziamenti
+label: Copertina
+description: 'Immagine o logo della voce di tassonomia.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: name
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

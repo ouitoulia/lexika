@@ -1,0 +1,29 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.image
+    - field.field.taxonomy_term.tipologia_finanziamenti.field_copertina
+    - image.style.wide
+    - taxonomy.vocabulary.tipologia_finanziamenti
+  module:
+    - media
+id: taxonomy_term.tipologia_finanziamenti.image
+targetEntityType: taxonomy_term
+bundle: tipologia_finanziamenti
+mode: image
+content:
+  field_copertina:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: content
+      image_style: wide
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  description: true
+  langcode: true

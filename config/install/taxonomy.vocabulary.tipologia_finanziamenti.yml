@@ -1,0 +1,7 @@
+langcode: it
+status: true
+dependencies: {  }
+name: 'Tipologia finanziamenti'
+vid: tipologia_finanziamenti
+description: 'Utilizza questo vocabolario per gestire le varie tipologie di finanziamenti.'
+weight: 0
