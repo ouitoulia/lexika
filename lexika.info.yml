@@ -12,8 +12,8 @@ dependencies:
   - drupal:taxonomy
   - pathauto:pathauto
 
-# Information added by GitHub Action packaging script on 2024-04-13
-version: '2.6.2'
+# Information added by GitHub Action packaging script on 2024-04-18
+version: '2.7.0'
 project: 'Lexika'
-datestamp: 1713016831
-message: ' add display image to tipologia progetti ouitoulia/diagraphe#15'
+datestamp: 1713429080
+message: ' add taxonomy tipologia_finanziamenti ouitoulia/diagraphe#15'
