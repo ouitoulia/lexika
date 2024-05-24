@@ -5,19 +5,20 @@ dependencies:
     - core.entity_view_mode.taxonomy_term.teaser
     - field.field.taxonomy_term.tipologia_luoghi.field_icona
     - taxonomy.vocabulary.tipologia_luoghi
+  module:
+    - text
 id: taxonomy_term.tipologia_luoghi.teaser
 targetEntityType: taxonomy_term
 bundle: tipologia_luoghi
 mode: teaser
 content:
-  field_icona:
-    type: string
+  description:
+    type: text_default
     label: hidden
-    settings:
-      link_to_entity: false
+    settings: {  }
     third_party_settings: {  }
     weight: 0
     region: content
 hidden:
-  description: true
+  field_icona: true
   langcode: true

@@ -20,14 +20,7 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_icona:
-    type: string
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 0
-    region: content
 hidden:
+  field_icona: true
   field_type: true
   langcode: true
