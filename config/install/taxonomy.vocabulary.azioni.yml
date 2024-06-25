@@ -5,3 +5,4 @@ name: Azioni
 vid: azioni
 description: 'Utilizza questo vocabolario per gestire le azioni che gli utenti possono/devono compiere per poter usufruire dei servizi.'
 weight: 0
+new_revision: false

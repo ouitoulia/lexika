@@ -5,3 +5,4 @@ name: 'Stato dei progetti'
 vid: stato_progetti
 description: 'Questo vocabolario gestisce i diversi stati dei progetti'
 weight: 0
+new_revision: false

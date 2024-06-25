@@ -5,3 +5,4 @@ name: 'Tipologia libri'
 vid: tipologia_libri
 description: 'Utilizza questo vocabolario per gestire le tipologie dei libri.'
 weight: 0
+new_revision: false

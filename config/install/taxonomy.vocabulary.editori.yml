@@ -5,3 +5,4 @@ name: Editori
 vid: editori
 description: 'Utilizza questo vocabolario per gestire le case editrici.'
 weight: 0
+new_revision: false

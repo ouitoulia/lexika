@@ -3,7 +3,7 @@ description: Lexikà è un modulo Drupal che installa i vocabolari utilizzati da
 package: "Ouitoulía"
 
 type: module
-core_version_requirement: ^10
+core_version_requirement: ^10 || ^11
 dependencies:
   - drupal:field
   - drupal:language

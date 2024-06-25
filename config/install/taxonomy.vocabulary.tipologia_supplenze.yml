@@ -5,3 +5,4 @@ name: 'Tipologia supplenze'
 vid: tipologia_supplenze
 description: 'Utilizza questo vocabolario per gestire le varie tipologie di supplenze.'
 weight: 0
+new_revision: false

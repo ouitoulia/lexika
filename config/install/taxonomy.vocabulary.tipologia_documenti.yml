@@ -5,3 +5,4 @@ name: 'Tipologia documenti'
 vid: tipologia_documenti
 description: 'Utilizza questo vocabolario per gestire le varie tipologie di documenti.'
 weight: 0
+new_revision: false

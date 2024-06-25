@@ -5,3 +5,4 @@ name: Autori
 vid: autori
 description: 'Utilizza questo vocabolario per gestire gli autori di opere letterarie, artistiche e simili.'
 weight: 0
+new_revision: false
