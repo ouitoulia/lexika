@@ -13,7 +13,7 @@ dependencies:
   - pathauto:pathauto
 
 # Information added by GitHub Action packaging script on 2024-06-25
-version: '3.0.1'
+version: '3.0.2'
 project: 'Lexika'
-datestamp: 1719329266
-message: ' up to drupal 10.3'
+datestamp: 1719333585
+message: ' fix deps'
