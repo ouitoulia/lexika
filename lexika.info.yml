@@ -12,8 +12,7 @@ dependencies:
   - drupal:taxonomy
   - pathauto:pathauto
 
-# Information added by GitHub Action packaging script on 2024-06-25
-version: '3.0.2'
+# Information added by GitHub Action packaging script on 2025-04-12
+version: '3.0.3'
 project: 'Lexika'
-datestamp: 1719333585
-message: ' fix deps'
+datestamp: 1744473203
